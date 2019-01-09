@@ -54,6 +54,8 @@ function submit (event) {
     let li = document.createElement("li")
     li.innerText = event.target[0].value
     comments[0].append(li)
+    event.target[0].value = ""
+    
 }
 
 
